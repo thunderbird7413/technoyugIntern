@@ -3,7 +3,7 @@
 ## Overview
 This is the backend authentication system built as part of the **Backend Engineer Intern Assignment @ TechnoYug Labs**.  
 It supports user signup, login, JWT authentication, refresh tokens, logout, and protected routes.  
-Optional features include role-based access, email verification, rate limiting, and Dockerization.
+Additional features include role-based access, rate limiting, and Dockerization.
 
 ---
 
