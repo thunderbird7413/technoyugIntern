@@ -94,7 +94,7 @@ Protected Routes
 ->GET /api/profile → Get logged-in user details
 Headers:
 
-Authorization: Bearer <access-token>
+Authorization: Bearer "your access token"
 
 
 
