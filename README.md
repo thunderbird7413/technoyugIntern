@@ -21,8 +21,8 @@ Additional features include role-based access, rate limiting, and Dockerization.
 ## ⚙️ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/technoyug-backend.git
-   cd technoyug-backend
+   git clone https://github.com/your-username/technoyugIntern.git
+   cd technoyugIntern
    ```
 
 2. Install dependencies:
