@@ -78,7 +78,7 @@ Body:
 Body:
 
 {
-  "refreshToken": "<your-refresh-token>"
+  "refreshToken": "your-refresh-token"
 }
 
 
@@ -86,7 +86,7 @@ Body:
 Body:
 
 {
-  "refreshToken": "<your-refresh-token>"
+  "refreshToken": "your-refresh-token"
 }
 
 Protected Routes
