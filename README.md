@@ -36,6 +36,10 @@ Additional features include role-based access, rate limiting, and Dockerization.
     MONGO_URI=mongodb://mongo:27017/technoyug
     JWT_SECRET=your_jwt_secret
     REFRESH_SECRET=your_refresh_secret
+    ACCESS_TOKEN_EXPIRES=15m
+    REFRESH_TOKEN_EXPIRES=7d
+    SALT_ROUNDS=10
+    NODE_ENV=development
     ```
 
 4. Run locally:
