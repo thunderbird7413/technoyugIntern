@@ -7,7 +7,7 @@ Additional features include role-based access, rate limiting, and Dockerization.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 - Node.js + Express
 - MongoDB (Mongoose)
 - JWT (Access & Refresh tokens)
@@ -47,3 +47,50 @@ npm start
 ```bash
 docker-compose up --build
 ```
+
+## API Endpoints
+Auth Routes
+
+->POST /api/auth/signup → Register a new user
+Body:
+
+{
+  "fullName": "John Doe",
+  "email": "john@example.com",
+  "password": "password123"
+}
+
+
+->POST /api/auth/login → Login user & get tokens
+Body:
+
+{
+  "email": "john@example.com",
+  "password": "password123"
+}
+
+
+->POST /api/auth/refresh → Get a new access token using refresh token
+Body:
+
+{
+  "refreshToken": "<your-refresh-token>"
+}
+
+
+->POST /api/auth/logout → Logout & invalidate refresh token
+Body:
+
+{
+  "refreshToken": "<your-refresh-token>"
+}
+
+Protected Routes
+
+->GET /api/profile → Get logged-in user details
+Headers:
+
+Authorization: Bearer <access-token>
+
+
+
